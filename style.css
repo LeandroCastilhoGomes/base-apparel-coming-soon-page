@@ -3,14 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body {
     font-family: 'Josefin Sans', sans-serif;
-}
 
+}
 
 .attribution { 
     font-size: 15px; text-align: center; 
 }
 .attribution a { 
     color: hsl(99, 45%, 44%); 
+    
+}
+picture {
+    display: inline;
+    position: relative;
+    left: 50%;
+}
+
+section {
+    background-color: aqua;
+    max-width: 50vw;
+}
+
+div {
+    background-color: aquamarine;
+    border-radius: 50px;
+    max-width: 20em;
 }
 
 footer {
