@@ -2,5 +2,6 @@
  Em breve site de vestuario
 # Tarefas
 - [x] Começar o site
-- [ ] Começar a estilização
-- [ ] 
+- [x] Começar a estilização
+- [ ] Responsividade do site
+- [ ] Interatividade do site
