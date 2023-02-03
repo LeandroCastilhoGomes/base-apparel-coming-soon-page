@@ -9,39 +9,44 @@
 body {
     background-image: url(images/bg-pattern-desktop.svg);
     font-family: 'Josefin Sans', sans-serif;
-    
 }
 
 main {
-    max-width: 1440px;
-    margin: auto;
-}
-div {
-    display: block;
+    height: 900px;
 }
 
-div#fotomodelo {
-    float: right;    
+div {
+    max-width: 1440px;
+    height: 15em;
+    margin: auto;
+}
+
+div > img {
+    margin: 35px;
+}
+
+div > picture {
+    float: right;
+    margin-bottom: 4em;
 }
 
 div.texto {
-    height: 50em;
 }
 
-h1 {
-    font-variant: small-caps;
-    letter-spacing: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 4em;
+div.texto h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 15px;
+    
 }
 
-section > p {
-    color: hsl(0, 36%, 70%);
-    line-height: 1.5em;
+div.texto p {
+    line-height: 2em;
+    margin: 10px;
 }
 
 .attribution { 
-    font-size: 15px; text-align: center; 
+    font-size: 12px; text-align: center; 
 }
 .attribution a { 
     color: hsl(99, 45%, 44%); 
