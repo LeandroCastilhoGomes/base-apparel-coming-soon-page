@@ -45,6 +45,10 @@ div.texto p {
     margin: 10px;
 }
 
+section {
+    max-width: 32%;
+}
+
 .attribution { 
     font-size: 12px; text-align: center; 
 }
