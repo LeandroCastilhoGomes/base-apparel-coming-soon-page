@@ -1,11 +1,12 @@
 function enviar() {
-    let ademail = document.querySelector('#endemail')
+
+    let emailInput = document.getElementById("email")
+    let email = emailInput.value
     
-    if (ademail.lenght == null) {
-
+     if (email.value == null ) {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
-    } else {
+     } else {
 
-        window.alert('tudo ok Prossiga')
-    }
+         window.alert('tudo ok Prossiga' + email)
+     }
 }
