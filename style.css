@@ -47,7 +47,7 @@ div.texto p {
     margin: 10px;
     max-width: 28em;
     padding: 5px;
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.7em + 0.7vw);
 }
 
 section {
